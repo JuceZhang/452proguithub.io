@@ -1,0 +1,59 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    min-height: 100vh;  
+    justify-content: space-between;  
+    text-align: center; /* 使所有文本居中 */  
+}  
+  
+header {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 10px 0;  
+}  
+  
+nav ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center; /* 居中导航栏 */  
+}  
+  
+nav li {  
+    margin: 0 10px;  
+}  
+  
+nav li a {  
+    color: white;  
+    text-decoration: none;  
+    padding: 10px 15px;  
+    border-radius: 5px;  
+    transition: all 0.3s ease;  
+}  
+  
+nav li a:hover {  
+    background-color: #555;  
+}  
+  
+main {  
+    flex: 1; /* 使main占据剩余空间 */  
+    padding: 20px;  
+}  
+  
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 10px 0;  
+    position: static; /* 不需要fixed，因为使用了flex布局 */  
+    width: 100%;  
+}  
+  
+/* 图片样式 */  
+img {  
+    width: 500px;  
+    height: 300px;  
+}
