@@ -11,9 +11,8 @@ body {
     background-color: #f2f2f2; /* Add background color */  
 }  
 .logo-container {  
-    /* 默认块级元素会从左侧开始，所以这里不需要额外的定位 */  
-    /* 你可以添加一些内边距或外边距来调整Logo与其他内容之间的间距 */  
-    padding-right: 15px; /* 如果有需要，可以添加右侧内边距 */  
+      
+    padding-right: 15px;   
 }  
 header {  
     background-color: #0b0b0b;  
@@ -72,19 +71,19 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effects */  
 }
 .hover-button {  
-    /* 定义按钮的初始样式 */  
+   
     display: inline-block;  
     padding: 10px 20px;  
     font-size: 16px;  
     color: #fff;  
-    background-color: #4CAF50; /* 绿色背景 */  
+    background-color: #4CAF50; /*green background */  
     border: none;  
     border-radius: 4px;  
     cursor: pointer;  
-    transition: background-color 0.3s ease; /* 平滑过渡效果 */  
+    transition: background-color 0.3s ease; /* Smooth transition effect */  
 }  
   
 .hover-button:hover {  
-    /* 定义鼠标悬停在按钮上时的样式 */  
-    background-color: #45a049; /* 稍暗的绿色背景 */  
+    /* Define the style when the mouse hovers over a button */  
+    background-color: #45a049; 
 }
