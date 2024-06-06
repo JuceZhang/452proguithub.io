@@ -1,0 +1,115 @@
+/* Juce Zhang Zhexuan */
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    min-height: 100vh;  
+    justify-content: space-between;  
+    text-align: center;  
+    background-color: #f2f2f2; /* Add background color */  
+}  
+.logo-container {  
+     
+    padding-right: 15px; 
+}  
+.hover-btn {  
+    width: 5%;
+    margin: 0 auto;
+    display: inline-block; /* 使按钮成为内联块元素，以便它可以设置宽度和高度 */  
+    padding: 5px 10px; /* 内边距，可以根据需要调整 */  
+    font-size: 14px; /* 字体大小，可以根据需要调整 */  
+    color: white; /* 文本颜色 */  
+    background-color: #3498db; /* 背景颜色 */  
+    border: none; /* 去除边框 */  
+    border-radius: 4px; /* 边框圆角 */  
+    cursor: pointer; /* 鼠标悬停时显示小手图标 */  
+    transition: background-color 0.3s ease; /* 过渡效果，使颜色变化更平滑 */  
+}  
+  
+.hover-btn:hover {  
+    background-color: #2980b9; /* 鼠标悬停时的背景颜色 */  
+} 
+  
+.hover-btn:hover {  
+    background-color: #2980b9;  
+}
+  
+.hover-btn:hover {  
+    background-color: #2980b9; /* 鼠标悬停时的背景颜色 */  
+}
+header {  
+    background-color: #0b0b0b;  
+    color: #4f927a;  
+    padding: 10px 0;  
+    border-bottom: 3px solid #060606; /* Add bottom border */  
+}  
+  
+nav ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    background-color: #444; /* Navigation bar background color */  
+}  
+  
+nav li {  
+    margin: 0 10px;  
+}  
+  
+nav li a {  
+    color: white;  
+    text-decoration: none;  
+    padding: 10px 15px;  
+    border-radius: 5px;  
+    transition: all 0.3s ease;  
+    border-bottom: 2px solid transparent; /* Initial underline transparent */  
+}  
+  
+nav li a:hover {  
+    background-color: #555;  
+    border-bottom: 2px solid #fff; /* underline changes color when hovering over the mouse */  
+}  
+  
+main {  
+    flex: 1;  
+    padding: 20px;  
+    background-color: #fff; /* Main content area background color */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effects */  
+}  
+  
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 10px 0;  
+    width: 100%;  
+    border-top: 3px solid #666; /* Add top border */  
+}  
+  
+/* Image Style */  
+img {  
+    width: 500px;  
+    height: 300px;  
+    border-radius: 10px; /* Add rounded corner effect */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effects */  
+}
+.hover-button {  
+   
+    /* 定义按钮的初始样式 */  
+    display: inline-block;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: #fff;  
+    background-color: #4CAF50; /* 绿色背景 */  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease; /* 平滑过渡效果 */  
+}  
+  
+.hover-button:hover {  
+    /* 定义鼠标悬停在按钮上时的样式 */  
+    background-color: #45a049; /* 稍暗的绿色背景 */  
+}
